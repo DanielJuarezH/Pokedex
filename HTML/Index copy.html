@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pokedex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/pokedexStyle.css">
+</head>
+<body>
+    <div class="headerContent">
+        <h1>Pokedex</h1>
+        <p>A simple site where you can search for Pokemons and learn more about them</p>
+    </div>
+    <div class="container">
+        <div class="searchBar">
+            <input type="text" name="pokemonName" id="pokemonName" placeholder="Pokemon Name or #">
+            <button class="btn" onclick="fetchPokemon()"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            <p>Search for a Pokemon by name or using its number. </p>
+        </div>
+        <div class="pokemonImage">
+            <img src="../Images/whos_that_pokemon_by_desenhosdoreu_d9n0y7l-fullview.jpg" alt="Who's that pokemon" id="pokemonImage">
+        </div>
+        <div class="pokemonInfo">
+            <p class="nameDisplay" id="nameDisplay">Name: </p>
+            <p class="typeDisplay" id="typeDisplay">Type: </p>
+            <p class="hp" id="hp">HP: </p>
+            <p class="attack" id="attack">Attack: </p>
+            <p class="defense" id="defense">Defense: </p>
+            <p class="specialAttack" id="specialAttack">Special Attack:</p>
+            <p class="specialDefense" id="specialDefense">Special Defense:</p>
+            <p class="speed" id="speed">Speed:</p>
+        </div>
+    </div>
+    
+    
+    <span><a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a></span>
+    
+    
+</body>
+<footer>
+    <script src="../JS/main.js"></script>
+</footer>
+</html>
+
